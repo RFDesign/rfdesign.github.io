@@ -1,0 +1,31 @@
+---
+layout: page
+title: Firmware
+---
+
+<section>
+    <h3>RFD900p</h3>
+    {% for file in site.data.firmware900p %}
+    <address>
+        <p><strong><a href="{{site.baseurl}}/Files/firmware/{{file.file}}">{{file.file}}<a/></strong></p>
+    </address>
+    {% endfor %}
+</section>
+
+<section>
+    <h3>RFD900u</h3>
+    {% for file in site.data.firmware900u %}
+    <address>
+        <p><strong><a href="{{site.baseurl}}/Files/firmware/{{file.file}}">{{file.file}}<a/></strong></p>
+    </address>
+    {% endfor %}
+</section>
+
+<section>
+    <h3>RFD900a</h3>
+    {% for file in site.data.firmware900a %}
+    <address>
+        <p><strong><a href="{{site.baseurl}}/Files/firmware/{{file.file}}">{{file.file}}<a/></strong></p>
+    </address>
+    {% endfor %}
+</section>
