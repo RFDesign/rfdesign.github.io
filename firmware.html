@@ -3,29 +3,23 @@ layout: page
 title: Firmware
 ---
 
+{% for modem in site.data.firmware %}
+<hr/>
 <section>
-    <h3>RFD900p</h3>
-    {% for file in site.data.firmware900p %}
-    <address>
-        <p><strong><a href="{{site.baseurl}}/Files/firmware/{{file.file}}">{{file.file}}<a/></strong></p>
-    </address>
-    {% endfor %}
-</section>
+    <h2>{{modem.modems.heading}}</h2>
 
-<section>
-    <h3>RFD900u</h3>
-    {% for file in site.data.firmware900u %}
+    <h4>RFD SiK</h4>
+    {% for file in modem.modems..SIK %}
+    <address>
+        <p><strong><a href="{{site.baseurl}}/Files/firmware/{{file.file}}">{{file.file}}<a/></strong></p>
+    </address>
+    {% endfor %}
+    
+    <h4>RFD Multipoint SiK</h4>
+    {% for file in modem.modems..MPSIK %}
     <address>
         <p><strong><a href="{{site.baseurl}}/Files/firmware/{{file.file}}">{{file.file}}<a/></strong></p>
     </address>
     {% endfor %}
 </section>
-
-<section>
-    <h3>RFD900a</h3>
-    {% for file in site.data.firmware900a %}
-    <address>
-        <p><strong><a href="{{site.baseurl}}/Files/firmware/{{file.file}}">{{file.file}}<a/></strong></p>
-    </address>
-    {% endfor %}
-</section>
+{% endfor %}
