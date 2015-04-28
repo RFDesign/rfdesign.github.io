@@ -14,6 +14,7 @@
         - file: RFDSiK V1.9 rfd900u.ihx
         - file: RFDSiK V1.8 radio~rfd900u.ihx
       MPSIK:
+        - file: MPSiK V2.4 rfd900u.ihx
     
     
 - modems:
