@@ -35,3 +35,7 @@
         - file: MPSiK V2.1 rfd900a.ihx
 
 
+- modems:
+    heading: hm_trp
+    SIK:
+        - file: RFDSiK V1.9 hm_trp.ihx
