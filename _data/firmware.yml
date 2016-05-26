@@ -1,6 +1,7 @@
 - modems:
     heading: RFD900+
     SIK:
+        - file: RFDSiK V1.13 rfd900p.ihx
         - file: RFDSiK V1.12 rfd900p.ihx
         - file: RFDSiK V1.9 rfd900p.ihx
     MPSIK:
@@ -11,6 +12,7 @@
 - modems:
       heading: RFD900u
       SIK:
+        - file: RFDSiK V1.13 rfd900u.ihx
         - file: RFDSiK V1.12 rfd900u.ihx
         - file: RFDSiK V1.10 rfd900u BETA.ihx
         - file: RFDSiK V1.9 rfd900u.ihx
@@ -24,6 +26,7 @@
 - modems:
     heading: RFD900a
     SIK:
+        - file: RFDSiK V1.13 rfd900a.ihx
         - file: RFDSiK V1.12 rfd900a.ihx
         - file: RFDSiK V1.10 rfd900a BETA.ihx
         - file: RFDSiK V1.9 rfd900a.ihx
