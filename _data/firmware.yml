@@ -45,8 +45,11 @@
     heading: hm_trp
     SIK:
         - file: RFDSiK V1.9 hm_trp.ihx
-        
+
+
 - modems:
     heading: RFD900x
     SIK900x:
         - file: RFD900x SiK V2.4.bin
+        - file: RFD900x SiK V2.53.bin
+
