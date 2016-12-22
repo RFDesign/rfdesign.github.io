@@ -4,7 +4,7 @@
         - file: RFD900x SiK V2.4.bin
         - file: RFD900x SiK V2.53.bin
 
--modems:
+- modems:
     heading: RFD900+
     SIK:
         - file: RFDSiK V1.13 rfd900p.ihx
