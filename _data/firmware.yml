@@ -3,8 +3,11 @@
     SIK:
         - file: RFDSiK V2.55 rfd900x.bin
         - file: RFDSiK V2.53 rfd900x.bin
+        - file: RFDSiK V2.60 rfd900x.bin
+
     Async:
         - file: RFD900x-AsyncRelease_V2.43.bin
+        - file: RFD900x-AsyncRelease_V2.45F.bin
 
 - modems:
     heading: RFD900+
