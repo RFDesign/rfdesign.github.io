@@ -15,6 +15,13 @@ title: Firmware
     </address>
     {% endfor %}
     
+    <h4>RFD Asynchronous Mesh</h4>
+    {% for file in modem.modems..Async %}
+    <address>
+        <p><strong><a href="{{site.baseurl}}/Files/firmware/{{file.file}}">{{file.file}}<a/></strong></p>
+    </address>
+    {% endfor %}
+    
     <h4>RFD Multipoint SiK</h4>
     {% for file in modem.modems..MPSIK %}
     <address>
