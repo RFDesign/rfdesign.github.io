@@ -1,9 +1,19 @@
+- file: Modem Support FAQs.pdf
+  des: RFD Modem Support FAQ
+- file: RFD900x DataSheet V1.1.pdf
+  des: RFD900x Radio Modem Data Sheet V1.1
 - file: RFD900x DataSheet V1.0.pdf
   des: RFD900x Radio Modem Data Sheet V1.0
+- file: RFD900x Peer-to-peer User Manual V1.1.pdf
+  des: RFD900x Peer to Peer (SiK) manual V1.1
 - file: RFD900x Peer-to-peer User Manual V1.0.pdf
   des: RFD900x Peer to Peer (SiK) manual V1.0
+- file: RFD900x Asynchronous User Manual V1.1.pdf
+  des: RFD900x Asynchronous manual V1.1
 - file: RFD900x Asynchronous User Manual V1.0.pdf
   des: RFD900x Asynchronous manual V1.0
+- file: RFD Modem Tools Manual V1.1.pdf
+  des: RFD Modem Tools Manual V1.1
 - file: RFD Modem Tools Manual V1.0.pdf
   des: RFD Modem Tools Manual V1.0
 - file: RFD900 DataSheet.pdf
