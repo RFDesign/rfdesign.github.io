@@ -1,0 +1,59 @@
+RFD X series modems SiK firmware version release log
+
+Version 
+- 2.65
+New
+- Added mavlink 2 packets to mavlink protocol
+Improved
+- removed unused packet drop rssi setting
+- added gpio1_3 status led mirror
+- added cal param txmod to lock serial, air rate, status led and rc/in when set to 1
+Fixed
+- fixed cal data bug where wrong level loaded if more cal data items added after production calibration.
+Notes
+- Current recommended version
+
+
+Version 
+- 2.60
+New
+- Packet size changed to 1026
+- Added more precision ticks per byte
+- 750kbs air rate (unstable)
+Improved
+- Reduced errors and increased throughput of link
+- 500kbs air rate now stable
+- ATI5? Command now shows correct values for country setting and not just all possible values that can be set
+- Frequency alignment of channels (not compatible with earlier firmware versions)
+Fixed
+- Fix AES bug
+- Fixes for DMA and SPI issues
+- Fix for TX power set to 0 bug
+Notes
+- Due to change of frequencies in the channels this version is not compatible with previous versions of the SiK firmware
+
+Version 
+- 2.55
+New
+- Added antenna modes (diversity, single antenna, separate TX and RX antennas)
+- Added minimum packet rssi for reception
+Improved
+- N/A
+Fixed
+- Fixed listen before talk listen time bug
+Notes
+- N/A
+
+
+Version
+- 2.53
+New
+- Added support for 868 band
+Improved
+- Radio configs for all data rates
+Fixed
+- RSSI report bug
+- Resolved encryption bug with mavlink packets 
+Notes
+- Initial release firmware and current factory default version.
+

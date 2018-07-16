@@ -1,0 +1,65 @@
+RFD X series modems Asynchronous firmware version release log
+
+Version 
+- 2.47
+New
+- Added RSSI to sas link message
+- Forwarding que working
+Improved
+- Variable buffers used for serial/radio/message forwarding 
+Fixed
+- Bug with VarQ affects forwarding if used due to wrong location length because of absent braces
+- Bugs with forwarding 
+- Calibration parameter issues
+- Bug with RSSI level reporting
+- Bug causing lock in TX mode (requires retries to be enabled)
+- Frequency alignment of channels (not compatible with earlier firmware versions)
+Notes
+- Current recommended version. Due to change of frequencies in the channels this version is not compatible with previous versions of the firmware
+
+
+
+Version 
+- 2.45
+New
+- Max air rates 440kbs (no acknowledgement) 300kbs (with acknowledgement)
+- Pin mirroring support added (output will be changed by any sending node)
+- PPM added (output will follow any sending source)
+- Added packet forwarding support 
+Improved
+- Reduced errors and increased throughput of link
+- 500kbs air rate preamble length increased
+- More packet statistics 
+- Serial DMA set to high priority
+- SPI rate now 7MHz 
+- High serial rates configurations for more stability
+- GPIO1 interrupt used for tx/rx fifo access
+- Destination ID takes affect without reboot
+- Added packet terminator
+- TX failure message
+Fixed
+- Fixes for DMA and SPI issues
+- Fixed resetting during high volume incoming packets
+- Fixed break detection (det=0) bug 
+- Resolved ack overlap and failures by adding 1ms delay
+- Added radio reset as workaround to rx mode lock
+- Heap size set to 8k to resolve hardfault
+- Resolved AT command mode issues in different modes
+- Saslink parsing issues fixed
+- Message type IDs changed to fix bug
+- Stopped radio task toggling pin
+Notes
+- Packet matching removed may be returned later if stable at higher data rates
+
+
+Version 
+- 2.43
+New
+N/A
+Improved
+- N/A
+Fixed
+- Fixed floating rx pin 
+Notes
+- Initial release firmware
+
