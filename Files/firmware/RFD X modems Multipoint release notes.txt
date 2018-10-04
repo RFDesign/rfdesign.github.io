@@ -1,0 +1,6 @@
+RFD X series modems Multipoint firmware version release log
+
+Version 
+- 2.75MP
+- Initial release firmware and current factory default version.
+
