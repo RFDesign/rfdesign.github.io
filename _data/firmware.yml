@@ -11,6 +11,9 @@
         - file: RFD900x-AsyncRelease_V2.43.bin
         - file: RFD900x-AsyncRelease_V2.45F.bin
         - file: RFD900x-AsyncRelease_V2.47.bin
+    Async:
+        - file: RFD X modems Multipoint release notes.txt
+        - file: RFD900x-MultipointRelease_V2.75MP.bin
 
 - modems:
     heading: RFD900+
