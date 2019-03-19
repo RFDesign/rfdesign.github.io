@@ -4,6 +4,8 @@
   des: RFD900x Radio Modem Data Sheet V1.1
 - file: RFD900x DataSheet V1.0.pdf
   des: RFD900x Radio Modem Data Sheet V1.0
+- file: RFD900x Peer-to-peer User Manual V1.2.pdf
+  des: RFD900x Peer to Peer V3.X (SiK) manual V1.0
 - file: RFD900x Peer-to-peer User Manual V1.1.pdf
   des: RFD900x Peer to Peer (SiK) manual V1.1
 - file: RFD900x Peer-to-peer User Manual V1.0.pdf
@@ -20,6 +22,8 @@
   des: RFD Modem Tools Manual V1.0
 - file: RFD900 DataSheet.pdf
   des: RFD900 Radio Modem Data Sheet
+- file: TX Module User Manual v1.0.pdf
+  des: RFD TX Module User Manual V1.0
 - file: RFD900 Shield V2.0 Schematic.pdf
   des: RFD900 Shield Schematic
 - file: RFD900 shield V2.pdf
@@ -28,3 +32,7 @@
   des: RFD900u Radio Modem Data Sheet
 - file: Software manual.pdf
   des: RFD	radio	modem	software manual for 900 series modems
+- file: TXModule Brochure.pdf
+  des: RFD TX Module Product Brochure
+- file: DINIO Brochure.pdf
+  des: RFD DIN IO Product Brochure
