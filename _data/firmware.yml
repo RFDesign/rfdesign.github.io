@@ -3,9 +3,9 @@
     SIK V3.X:
         - file: RFD X modems SiK V3.X release notes.txt
         - file: RFDSiK V3.01 rfd900x.bin
-    SIK:
-        - file: RFD X modems SiK V3.X release notes.txt
-        - file: RFDSiK V3.01 rfd900x.bin
+    SIKV2.X:
+        #- file: RFD X modems SiK V3.X release notes.txt
+        #- file: RFDSiK V3.01 rfd900x.bin
         - file: RFD X modems SiK V2.X release notes.txt
         - file: RFDSiK V2.55 rfd900x.bin
         - file: RFDSiK V2.53 rfd900x.bin
