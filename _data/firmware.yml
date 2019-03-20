@@ -69,5 +69,6 @@
 
 - modems:
     heading: TX Module
+    SIK:
         - file: firmware.bin
         - file: spiffs.bin
