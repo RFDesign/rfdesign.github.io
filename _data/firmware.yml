@@ -67,5 +67,7 @@
     SIK:
         - file: RFDSiK V1.9 hm_trp.ihx
 
-
-
+- modems:
+    heading: TX Module
+        - file: firmware.bin
+        - file: spiffs.bin
