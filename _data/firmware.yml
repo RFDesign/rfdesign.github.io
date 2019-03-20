@@ -1,6 +1,6 @@
 - modems:
     heading: RFD900x
-    #SIK V3.X:
+    SIKv3x:
     #    - file: RFD X modems SiK V3.X release notes.txt
     #    - file: RFDSiK V3.01 rfd900x.bin
     SIK:
