@@ -1,0 +1,40 @@
+RFD X V3.X series modems SiK firmware version release log
+Version
+- 3.01
+
+New
+- Added support for regional compliance
+- Added S parrameters for future SBUS pass through
+
+Improved
+- Radio configs for all data rates
+
+Fixed
+
+
+Notes
+- Initial release of V3 firmware and soon to be factory default version.
+
+Version
+- 3.06
+
+New
+- New AT commands for non linear channel hop sets on special systems
+- New AT commands to diagnose missing calibration data
+- Modem red LED flashes on start up if modem calibration data is not found
+- Added country code display for locked modems
+
+Improved
+- Removed unused duplicate variable
+
+Fixed
+- Dynamic power control R0 is now desired RSSI power, dBm at receiver, should be set to between 80 and 90 when in use and 0 disables the feature. 
+R1 sets the tolerance range for R0 e.g. 5
+- Updated the calibration table detection system to fix issue with 868 modems being set to 900 band
+- Antenna diversity bug affecting all previous version 3.X firmware
+- Bug with packet sizing
+
+Notes
+- The recomended firmware version soon to be factory default.
+
+
