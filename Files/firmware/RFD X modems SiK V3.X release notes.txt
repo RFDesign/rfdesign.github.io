@@ -35,6 +35,16 @@ R1 sets the tolerance range for R0 e.g. 5
 - Bug with packet sizing
 
 Notes
+
+Version
+- 3.06
+
+New
+
+Improved
+
+Fixed
+- Solved bug with uploading firmware via RFD tools
+ 
+Notes
 - The recomended firmware version soon to be factory default.
-
-
