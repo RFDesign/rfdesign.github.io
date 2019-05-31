@@ -37,7 +37,7 @@ R1 sets the tolerance range for R0 e.g. 5
 Notes
 
 Version
-- 3.06
+- 3.07
 
 New
 
