@@ -38,7 +38,15 @@
   des: RFD900u Radio Modem Data Sheet
 - file: Software manual.pdf
   des: RFD	radio	modem	software manual for 900 series modems
+- file: RFD TX Pole User Manual v1.0.pdf
+  des: RFD TX Module User Manual V1.0
 - file: TXModule Brochure.pdf
   des: RFD TX Module Product Brochure
+- file: RFD DINIO User Manual V1.0.pdf
+  des: RFD DIN IO User Manual V1.0
+- file: RFD DINIO Installation Guide V1.0.pdf
+  des: RFD DIN IO Installation Guide V1.0
 - file: DINIO Brochure.pdf
   des: RFD DIN IO Product Brochure
+- file: RFDMX User Manual v1.3.pdf
+  des: RFDMX User Manual V1.3
