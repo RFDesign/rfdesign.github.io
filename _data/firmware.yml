@@ -21,6 +21,14 @@
     MPSIK:
         - file: RFD X modems Multipoint release notes.txt
         - file: RFD900x-MultipointRelease_V2.75MP.bin
+        
+- modems:
+    heading: RFD900ux
+    SIKB:
+        - file: RFDSiK V3.09 rfd900ux.bin
+    SIKC:
+        - file: RFD X modems SiK V3.X release notes.txt
+        - file: RFDSiK V3.07 rfd900ux.bin
 
 - modems:
     heading: RFD900+
@@ -75,3 +83,21 @@
         - file: TX MOD Firmware Notes.txt
         - file: firmware.bin
         - file: spiffs.bin
+        
+- modems:
+    heading: TX Pole
+    SIK:
+        - file: TXPoleFirmware.ino.bin
+        - file: TXPoleFirmware.spiffs.bin
+        
+- modems:
+    heading: RFD DINIO
+    Async:
+        - file: RFD900x-AsyncRelease_V2.58_DINIO.bin
+        
+- modems:
+    heading: RFDMX
+    SIK:
+        - file: Binaries_DMX-2-0_RAD-2_69.zip
+        
+       
