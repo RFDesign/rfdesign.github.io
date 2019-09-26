@@ -1,8 +1,9 @@
-heading: RFD Modem Tools
-  - file: RFD Modem Tools Release Notes.txt
-  - file: RFDTools-V2.33.zip
-heading: RFDMX Tools
-  - file: RFDMXTools.zip
+- file: RFD Modem Tools Release Notes.txt
+  des: Release notes for modem tools
+- file: RFDTools-V2.33.zip
+  des: Tools for managing setting and firmware of RFD modems
+- file: RFDMXTools.zip
+  des: Tools for firmware upgrades to the RFDMX
 #- file: RFDTools-V2.20.zip
 #- file: RFDTools-V2.14.zip
 #- file: RFDTools-V2.13.zip
