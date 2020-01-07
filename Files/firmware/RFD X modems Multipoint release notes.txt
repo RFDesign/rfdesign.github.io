@@ -2,5 +2,171 @@ RFD X series modems Multipoint firmware version release log
 
 Version 
 - 2.75MP
-- Initial release firmware and current factory default version.
+
+New
+
+Improved
+
+Fixed
+
+Notes
+- Initial release firmware 
+
+Version 
+- 2.77MP
+
+New
+- added frequency range
+Improved
+
+Fixed
+
+Notes
+
+Version 
+- 2.77MP
+
+New
+
+Improved
+- change range check for uneeded cal parameters
+- added new radio configs for compliance fixed channel hop to ensure all nodes use all channels
+
+Fixed
+- fix rssi not reading tx slot filled with empty data for testing
+- fixes for radio sensitivity from SiK branch. Splatter fixed and dat rate fixed
+- si446x bug fix, SPI FIFO pull causes sensitivity loss at low power. changed packet size to 120 bytes payload 4 bytes id on air, 120 = 6 trailer, 114 data. mav packet parser tries to send whole packets separated into the current slot. Sas parser limits data size of payload to 114 bytes, larger sizes will be discarded serial break will attempt to fit into current slot if it can raw data will send whatever is available
+
+Notes
+
+Version 
+- 2.78MP
+
+New
+- Don't tx in slot when no data
+
+Improved
+
+Fixed
+
+Notes
+
+Version 
+- 2.79MP
+
+New
+
+Improved
+
+Fixed
+-fixed RSSI reporting issues not working all the time #defines for cutting out radio configs for debugging
+
+Notes
+
+Version 
+- 2.80MP
+
+New
+-added country string to ati command lock max number of networks for US and EU to 1
+
+Improved
+
+Fixed
+
+
+Notes
+
+Version 
+- 2.81MP
+
+New
+
+Improved
+- first pass at MP timing ocrrection
+
+Fixed
+-fix bug with lock up after intense parameter getting, mav parser issue
+
+Notes
+
+Version 
+- 2.82MP
+
+New
+
+Improved
+-Testing new timings
+
+Fixed
+
+Notes
+
+Version 
+- 2.83MP
+
+New
+-merge changes for 900ux support hwsereies string merge pin user define errr merge
+- added cal grabber
+
+Improved
+- changed to remove window from trailer, only used during sync now. Changed sync margin to 10 for master and 15 for backup or .25 or .375 of window only display sync errors larger than 4 ticks set tx holdoff time to zero, didn't change timing.
+- working on MP timing
+
+Fixed
+- fixed locking issue at 64K
+- merge closer to main, extend preamble to 11 bytes fix diversity
+- fix for diversity broken
+- fixed bug with sensitivity loss after tx, removed unused gpios
+Notes
+- change board freq string
+
+Version 
+- 2.84MP
+
+New
+-merge changes from SiK V3.09 suport for 868 24Mhz flash size corrected in project country options corrected for EU 868
+
+Improved
+
+Fixed
+
+Notes
+
+Version 
+- 2.85MP
+
+New
+- added number of networks to fixed country params
+- added heap size define to project
+- added buffersize parameter for serial buffer size
+- assert added in to force reset
+- added checks to ensure cts pin does not stay high 
+- added check to tx setup and delay times
+- added watchdog to kill if end of main loop not reached often enough (i.e. tx some data) watchdog now 4 seconds to allow for master device first time start up around entire channel set before tx
+
+Improved
+- changed some defaults
+- serial driver changed to dynamic allocation of buffers
+
+Fixed
+- changed default min and max freq back to standard
+- fix issue with duty cycle stopping radio working. Need to test duty cycle under high temp conditions
+
+Notes
+
+Version 
+- 2.86MP
+
+New
+
+Improved
+- changed mavlink parser to search fo rmav 1 or 2 and look again at end of packet for start char again if misalignment occurs tested mav1 2 and signed 2 serial cts thresholds changed and tx buffer enlarged. removed tdm printf's
+
+Fixed
+
+Notes
+- Recommended version
+
+
+
 

@@ -1,31 +1,29 @@
 RFD X series modems Asynchronous firmware version release log
 
 Version 
-- 2.47
+- 2.43
+
 New
-- Added RSSI to sas link message
-- Forwarding que working
+
+
 Improved
-- Variable buffers used for serial/radio/message forwarding 
+
+
 Fixed
-- Bug with VarQ affects forwarding if used due to wrong location length because of absent braces
-- Bugs with forwarding 
-- Calibration parameter issues
-- Bug with RSSI level reporting
-- Bug causing lock in TX mode (requires retries to be enabled)
-- Frequency alignment of channels (not compatible with earlier firmware versions)
+- Fixed floating rx pin 
+
 Notes
-- Current recommended version. Due to change of frequencies in the channels this version is not compatible with previous versions of the firmware
-
-
+- Initial release firmware
 
 Version 
 - 2.45
+
 New
 - Max air rates 440kbs (no acknowledgement) 300kbs (with acknowledgement)
 - Pin mirroring support added (output will be changed by any sending node)
 - PPM added (output will follow any sending source)
 - Added packet forwarding support 
+
 Improved
 - Reduced errors and increased throughput of link
 - 500kbs air rate preamble length increased
@@ -37,6 +35,7 @@ Improved
 - Destination ID takes affect without reboot
 - Added packet terminator
 - TX failure message
+
 Fixed
 - Fixes for DMA and SPI issues
 - Fixed resetting during high volume incoming packets
@@ -48,18 +47,116 @@ Fixed
 - Saslink parsing issues fixed
 - Message type IDs changed to fix bug
 - Stopped radio task toggling pin
+
 Notes
 - Packet matching removed may be returned later if stable at higher data rates
 
+Version 
+- 2.47
+
+New
+- Added RSSI to sas link message
+- Forwarding que working
+
+Improved
+- Variable buffers used for serial/radio/message forwarding 
+
+Fixed
+- Bug with VarQ affects forwarding if used due to wrong location length because of absent braces
+- Bugs with forwarding 
+- Calibration parameter issues
+- Bug with RSSI level reporting
+- Bug causing lock in TX mode (requires retries to be enabled)
+- Frequency alignment of channels (not compatible with earlier firmware versions)
+
+Notes
+- Current recommended version. Due to change of frequencies in the channels this version is not compatible with previous versions of the firmware
 
 Version 
-- 2.43
+- 2.57
+
 New
-N/A
+- builds for ux hardware
+- show cal valid on led
+- remove cal grabber
+
 Improved
-- N/A
+- change ant mode meaning to match SiK
+
 Fixed
-- Fixed floating rx pin 
+- fix bug with diversity as debug output was using it.
+ 
 Notes
-- Initial release firmware
+
+Version 
+- 2.58
+
+New
+- check at command length before copying into command buffer
+- increase at cmd response lenth to 500
+
+Improved
+- change min and max freq to AU 916-925(23), NZ 921-927(15),US 905.5-925(51)
+
+Fixed
+- fix bug with crash for rti5 command and pins changing, shared variable - added separate variable for each
+- fixed freq string display and check for cal parametere out of range before display 
+Notes
+
+Version 
+- 2.59
+
+New
+
+Improved
+
+Fixed
+- fix to ack back on port recevied on
+ 
+Notes
+- change version string
+
+Version 
+- 2.60
+
+New
+-merge from Sik V3.09 for ux radio support change project end flash location general merge to make them closer support 24Mhz xtal parameter changes for EU country fixed params disable rssi following params support new board types duty cycle limiting working correctly
+
+Improved
+
+Fixed
+ 
+Notes
+
+Version 
+- 2.62
+
+New
+- enabled adc clock, for some reason this makes it work when using the 48Mhz xtal
+
+Improved
+
+Fixed
+ 
+Notes
+
+Version 
+- 2.64
+
+New
+
+Improved
+- moved start chanel up 1/2 channel spacing.
+ 
+Fixed
+- adc reading was needed for radio temp comp on ux, made sure adc initialised poroperly for ux
+- fixes for radio rates 12,56,64,125,224K
+- corrected serial rate to 460800
+- fixed bug with <5 channels not setting spacing, now will max out at around 2Mhz.
+
+ 
+Notes
+- Recomended version
+
+
 
