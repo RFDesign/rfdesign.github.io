@@ -2,30 +2,32 @@
   des: RFD Modem Support FAQ
 - file: RFD900x DataSheet V1.1.pdf
   des: RFD900x Radio Modem Data Sheet V1.1
-- file: RFD900x DataSheet V1.0.pdf
-  des: RFD900x Radio Modem Data Sheet V1.0
+#- file: RFD900x DataSheet V1.0.pdf
+#  des: RFD900x Radio Modem Data Sheet V1.0
 - file: RFD900ux DataSheet V1.1.pdf
   des: RFD900ux Radio Modem Data Sheet V1.1
 - file: RFD900ux Altium Library.zip
   des: RFD900ux Altium PCB and Schematic Libraries
-- file: RFD900x Peer-to-peer V3.X User Manual V1.1.pdf
-  des: RFD900x Peer to Peer V3.X (SiK) manual V1.1
-- file: RFD900x Peer-to-peer V3.X User Manual V1.0.pdf
-  des: RFD900x Peer to Peer V3.X (SiK) manual V1.0
+- file: RFD900x Peer-to-peer V3.X User Manual V1.2.pdf
+  des: RFD900x Peer to Peer V3.X (SiK) manual V1.2
+#- file: RFD900x Peer-to-peer V3.X User Manual V1.1.pdf
+#  des: RFD900x Peer to Peer V3.X (SiK) manual V1.1
+#- file: RFD900x Peer-to-peer V3.X User Manual V1.0.pdf
+#  des: RFD900x Peer to Peer V3.X (SiK) manual V1.0
 - file: RFD900x Peer-to-peer User Manual V1.1.pdf
   des: RFD900x Peer to Peer (SiK) manual V1.1
-- file: RFD900x Peer-to-peer User Manual V1.0.pdf
-  des: RFD900x Peer to Peer (SiK) manual V1.0
+#- file: RFD900x Peer-to-peer User Manual V1.0.pdf
+#  des: RFD900x Peer to Peer (SiK) manual V1.0
 - file: RFD900x Asynchronous User Manual V1.1.pdf
   des: RFD900x Asynchronous manual V1.1
-- file: RFD900x Asynchronous User Manual V1.0.pdf
-  des: RFD900x Asynchronous manual V1.0
+#- file: RFD900x Asynchronous User Manual V1.0.pdf
+#  des: RFD900x Asynchronous manual V1.0
 - file: RFD900x Multipoint User Manual V1.0.pdf
   des: RFD900x Multipoint manual V1.0
 - file: RFD Modem Tools Manual V1.1.pdf
   des: RFD Modem Tools Manual V1.1
-- file: RFD Modem Tools Manual V1.0.pdf
-  des: RFD Modem Tools Manual V1.0
+#- file: RFD Modem Tools Manual V1.0.pdf
+#  des: RFD Modem Tools Manual V1.0
 - file: RFD900 DataSheet.pdf
   des: RFD900 Radio Modem Data Sheet
 - file: TX Module User Manual v1.0.pdf
@@ -44,8 +46,8 @@
   des: RFD TX Module Product Brochure
 - file: RFD DINIO User Manual V1.1.pdf
   des: RFD DIN IO User Manual V1.1
-- file: RFD DINIO User Manual V1.0.pdf
-  des: RFD DIN IO User Manual V1.0
+#- file: RFD DINIO User Manual V1.0.pdf
+#  des: RFD DIN IO User Manual V1.0
 - file: RFD DINIO Installation Guide V1.0.pdf
   des: RFD DIN IO Installation Guide V1.0
 - file: DINIO Brochure.pdf
