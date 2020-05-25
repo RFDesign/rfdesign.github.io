@@ -1,5 +1,10 @@
 TX MOD Firmware Notes
 
-The current version of the TX MOD firmware is 1.3.12
+The current version of the TX MOD firmware is 1.4.0
 
-This firmware will update the internal modem to V3.09 firmware and will require the paired modem to be updated to the same version.
+This firmware will update the internal modem to V3.15 firmware and will require the paired modem to be updated to the same version.
+
+Version History
+
+1.4.0  Added MavLink to S.PORT support. The user is required to modify the hardware to get the feature working.
+1.3.12 Bugfix: TXMOD no longer resets modems during bootup
