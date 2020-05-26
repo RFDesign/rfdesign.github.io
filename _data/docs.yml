@@ -41,9 +41,11 @@
 - file: Software manual.pdf
   des: RFD	radio	modem	software manual for 900 series modems
 - file: RFD TX Pole User Manual v1.0.pdf
-  des: RFD TX Module User Manual V1.0
+  des: RFD TX Pole User Manual V1.0
 - file: TXModule Brochure.pdf
-  des: RFD TX Module Product Brochure
+  des: RFD TXMOD Product Brochure
+- file: TXMOD - Adding S.PORT Support.pdf
+  des: RFD TXMOD - Adding S.PORT Support
 - file: RFD DINIO User Manual V2.2.pdf
   des: RFD DIN IO User Manual V2.2
 #- file: RFD DINIO User Manual V1.0.pdf
