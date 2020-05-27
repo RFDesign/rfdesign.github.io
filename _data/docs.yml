@@ -30,8 +30,6 @@
 #  des: RFD Modem Tools Manual V1.0
 - file: RFD900 DataSheet.pdf
   des: RFD900 Radio Modem Data Sheet
-- file: TX Module User Manual v1.0.pdf
-  des: RFD TX Module User Manual V1.0
 - file: RFD900 Shield V2.0 Schematic.pdf
   des: RFD900 Shield Schematic
 - file: RFD900 shield V2.pdf
@@ -39,9 +37,11 @@
 - file: RFD900u DataSheet.pdf
   des: RFD900u Radio Modem Data Sheet
 - file: Software manual.pdf
-  des: RFD	radio	modem	software manual for 900 series modems
+  des: RFD radio	modem	software manual for 900 series modems
 - file: RFD TX Pole User Manual v1.0.pdf
   des: RFD TX Pole User Manual V1.0
+- file: TXMOD User Manual v1.2.pdf	
+  des: RFD TXMOD User Manual V1.2
 - file: TXModule Brochure.pdf
   des: RFD TXMOD Product Brochure
 - file: TXMOD - Adding S.PORT Support.pdf
