@@ -89,11 +89,12 @@
         - file: RFDSiK V1.9 hm_trp.ihx
 
 - modems:
-    heading: TX MOD V1.4.0
+    heading: TX MOD V1.4.1
     SIK:
         - file: TX MOD Firmware Notes.txt
-        - file: firmware.bin
-        - file: spiffs.bin
+        - file: firmware141.bin
+        - file: spiffs315.bin
+        - file: spiffs316.bin
         
 - modems:
     heading: TX Pole
