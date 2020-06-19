@@ -94,7 +94,6 @@
         - file: TX MOD Firmware Notes.txt
         - file: firmware141.bin
         - file: spiffs315.bin
-        - file: spiffs316.bin
         
 - modems:
     heading: TX Pole
