@@ -1,5 +1,5 @@
 - modems:
-    heading: RFD900x
+    heading: RFD900x 
     SIKB:
         
     SIKC:
@@ -27,7 +27,7 @@
         - file: RFD900x-MultipointRelease_V2.86MP.bin
         
 - modems:
-    heading: RFD900ux
+    heading: RFD900ux and RFD868x
     SIKC:
         - file: RFD X modems SiK V3.X release notes.txt
         - file: RFDSiK V3.09 rfd900ux.bin
@@ -90,7 +90,7 @@
         - file: RFDSiK V1.9 hm_trp.ihx
 
 - modems:
-    heading: TX MOD V1.4.1
+    heading: TXMOD and TXMOD868
     SIK:
         - file: TX MOD Firmware Notes.txt
         - file: firmware141.bin
