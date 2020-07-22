@@ -46,3 +46,12 @@
  * 2.35 - Fixed bug in which re-loading settings when AES was previously enabled would cause it to disable AES.  
  * 2.36 - Added a retry option message window for when programming firmware fails. 
  * 2.37 - Resolved issue in which a MAX_WINDOW setting value which wasn't a multiple of 20 failed to be set in the settings GUI.
+ * 2.38 - Manufacturing tab now includes lockdown for EU and India.
+ * 2.39 - For checkbox settings for which the modem specifies (in the ATI5? query response) only one option, it now greys-out the checkbox.
+ *          This was to cater to the X modem 3.15 firmware in which the ECC paramater can't be changed and is always false. 
+ * 2.40 - Now for remote modems which do not specify valid settings ranges, if the remote modem has the same firmware version as the
+ *          local modem, then assumes the ranges specified by the local modem.  If the remote modem does not specify valid settings ranges
+ *          and is a different firmware version to the local modem, informs the user in a message box and advises to use the same modem
+ *          firmware version. 
+ * 2.42 - Now gets valid parameter ranges out of remote modem for newer firmware which doesn't support the RTI5? query.  Now supports the
+ *          specified available encryption levels given by the modems (e.g. None/128bit/256bit), instead of just enabled/disabled.
