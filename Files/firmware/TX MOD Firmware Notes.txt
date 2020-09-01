@@ -7,6 +7,7 @@ This firmware will update the internal modem to V3.15 or V3.16 dependending on s
 Version History
 ===============
 
+01/09/20 - 1.4.5  Bugfix: clears cached radio parameters once First Run Wizard is executed
 28/08/20 - 1.4.4  Bugfixes and code refactoring: RSSI figure is now reported without an active WiFi connection
 06/08/20 - 1.4.2  Added feature that initiates datastreams, without GCS connected to the WiFi, and some minor enhancements.
 18/06/20 - 1.4.1  Bugfix: S.PORT also working while connected via TCP
