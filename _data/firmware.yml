@@ -100,8 +100,6 @@
 - modems:
     heading: TX Pole
     SIK:
-        - file: TXPoleFirmware.ino.bin
-        - file: TXPoleFirmware.spiffs.bin
         
 - modems:
     heading: RFD DINIO
