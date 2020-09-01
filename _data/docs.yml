@@ -38,8 +38,10 @@
   des: RFD900u Radio Modem Data Sheet
 - file: Software manual.pdf
   des: RFD radio	modem	software manual for 900 series modems
-- file: RFD TX Pole User Manual v1.0.pdf
-  des: RFD TX Pole User Manual V1.0
+- file: TXPOLE User Manual v1.0.pdf
+  des: TXPOLE User Manual
+- file: TXPOLE Quick Start Guide v1.0.pdf
+  des: TXPOLE Quick Start Guide
 - file: TXMOD User Manual v1.4.pdf	
   des: RFD TXMOD User Manual V1.4
 - file: TXModule Brochure.pdf
