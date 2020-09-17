@@ -23,8 +23,9 @@
         - file: RFD900x-AsyncRelease_V2.64.bin
     MPSIK:
         - file: RFD X modems Multipoint release notes.txt
-        - file: RFD900x-MultipointRelease_V2.75MP.bin
+     #   - file: RFD900x-MultipointRelease_V2.75MP.bin
         - file: RFD900x-MultipointRelease_V2.86MP.bin
+        - file: RFD900x-MultipointRelease_V2.89MP.bin
         
 - modems:
     heading: RFD900ux and RFD868x
@@ -40,6 +41,7 @@
     MPSIK:
         - file: RFD X modems Multipoint release notes.txt
         - file: RFD900ux-MultipointRelease_V2.86MP.bin
+        - file: RFD900ux-MultipointRelease_V2.89MP.bin
         
 
 - modems:
