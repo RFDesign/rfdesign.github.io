@@ -159,4 +159,37 @@ Notes
 - Recomended version
 
 
+Version 
+- 2.69
+
+New
+- added address 65535 to forwarding address to mean forward to all and send out serial port.
+- 2 band options for au/us overlapping.
+- indian county and options added
+- add cmd ATPR?=x to read analog pin input
+
+Improved
+- changed preamble lengths.
+- updated radio configs
+- updated options for india/nz.
+- params updated as per Sik except some 12,100,224 rates missing
+- change ATPR=X TO ATPRX=?
+ 
+Fixed
+- fix for 868 224K now not able to be selected
+- changed xtal tune for 868 56k,64k,125K,200K
+- corrected serial rate to 460800
+- fixed bug with <5 channels not setting spacing, now will max out at around 2Mhz.
+- updated board rev for for x and ux series
+- bugfix, used '=' instead of '==' for forwarding
+- change ++ to accept 3 in quick sucession instead of needing 50ms between
+- fix bug with 'AT" mode being entered from data stream, and when more than 3'+' entered
+- clear RX on CRC failure
+- tested crc seed 0 and 1, do not talk to each other
+- fix bugs with command using strcmp instead of stnrcmp
+- RCOComp now uses adc library shared with analog reads
+
+Notes
+- Recomended version
+
 
