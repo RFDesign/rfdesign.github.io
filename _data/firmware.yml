@@ -97,7 +97,7 @@
     heading: TXMOD and TXMOD868
     SIK:
         - file: TX MOD Firmware Notes.txt
-        - file: firmware145.bin
+        - file: firmware146.bin
         - file: spiffs315.bin
         - file: spiffs316.bin
         
