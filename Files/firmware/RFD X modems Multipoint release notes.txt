@@ -154,6 +154,7 @@ Fixed
 
 Notes
 
+
 Version 
 - 2.86MP
 
@@ -165,8 +166,25 @@ Improved
 Fixed
 
 Notes
+
+
+Version 
+- 2.89MP
+
+New
+- Removed master backup feature so it cannot be enabled anymore, due to lack of consistent functionality over mulitple restarts
+
+Improved
+- change rescan time to  be larger than 3ch loop itmes used for master waiting for slave
+
+Fixed
+- fix bug with encryption not working,change so when encryption on won't ouput bad data if not decrypted
+- fix bug with serial port buffer size growing with each save.
+- fix bug master won't lock 51ch
+- fixed bug with 51 channels causing restarts
+- fix bug with syncing master sync margin was 10 now 8ms from start and end of sync time slot
+
+Notes
 - Recommended version
-
-
 
 
