@@ -1,6 +1,31 @@
 RFD X V3.X series modems SiK firmware version release log
 
 Version
+- 3.20
+
+New
+- added analogue read command atpr?=x
+- added Fsframeloss param to set frame timeout manually
+
+Improved
+- turn sbus output off until firts data
+- changed sbus rx delay for restart to 2.6mS and force clear of rx buffer before every SBUS rx DMA start
+- changed india max rate to 188 instead of 200 for compliance reasons
+
+Fixed
+- fixed SBUS2 extra data
+- fixed SBUS ati11 command
+- fixed fix bug with jerky servo for futaba SBUS
+- fix bug with large packets for ppm and aux serial
+- fixed bug with 868,842 and 933 setting max air rate when ati5? command issued
+- Fixed problem with futaba ppm on 12 channels, PPm width goes down to 500uS on futaba instead of 1mS, extended range to allow these values through
+
+Notes
+The recomended firmware version.
+
+
+
+Version
 - 3.16
 
 New
@@ -18,11 +43,7 @@ Fixed
 - fixed aes issues when rt&f sent key not updated until reboot
 - fix bug with large packets for ppm and aux serial
 
-
-
-
 Notes
-The recomended firmware version.
 
 
 
