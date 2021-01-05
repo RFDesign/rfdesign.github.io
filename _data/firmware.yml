@@ -104,6 +104,8 @@
 - modems:
     heading: TX Pole
     SIK:
+        - file: RFDTxPole-V1.0.0.bin
+        - file: RFDTxPole-V1.0.0.spiffs.bin
         
 - modems:
     heading: RFD DINIO
