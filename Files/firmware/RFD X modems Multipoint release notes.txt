@@ -185,6 +185,19 @@ Fixed
 - fix bug with syncing master sync margin was 10 now 8ms from start and end of sync time slot
 
 Notes
+
+
+Version 
+- 2.90MP
+
+New
+
+Improved
+
+Fixed
+- fix bug with different board versions causing timing issues.
+
+Notes
 - Recommended version
 
 
