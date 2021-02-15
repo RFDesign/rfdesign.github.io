@@ -185,5 +185,23 @@ Fixed
 Notes
 - Recommended version
 
+Version
+- 2.90MP
+ 
+New
+- new radio configs from SiK (RF compliant). 
+AT commands same as SiK(ati0 correct display, ati4 now shows Board Revision,
+ati10 command added for RFD tools), 
+
+Improved
+- line most s params up with Sik(up to country option), 
+ 
+Fixed
+- update board rev files to SiK (support new rfd868 26Mhz xtal board V1.4 correctly)
+ 
+Notes
+- Recommended version
+
+
 
 
