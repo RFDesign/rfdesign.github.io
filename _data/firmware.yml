@@ -103,6 +103,7 @@
         - file: spiffs315.bin
         - file: spiffs316.bin
         - file: spiffs320.bin
+        - file: spiffs338.bin
         
 - modems:
     heading: TX Pole
