@@ -1,6 +1,29 @@
 RFD X V3.X series modems SiK firmware version release log
 
 Version
+- 3.38
+
+New
+- added some debug paramters in ati11 for PPM the same as SBUS
+
+Improved
+- changed memcpy function in ppm and sbus to avoid possible issues during interrupt
+- change min fsframeloss from 2 to 5
+
+Fixed
+- fixed bug with some sbus channels being corrupted
+- fixed bug with 200K SBUS failing-change all int vars to volatile only read from timer and not dma complete now
+- fixed bug with ppm to sbus with pulse width causing output to flip
+- fixed bug temporarily with 750K rate, Disabled whitening for 750K rate
+- fixed problem with futaba ppm on 12 channels, PPm width goes down to 500uS on futaba instead of 1mS
+- fixed bug with 868,842 and 933 setting max air rate when ati5? command issued
+
+Notes
+The recomended firmware version.
+
+
+
+Version
 - 3.20
 
 New
@@ -21,7 +44,6 @@ Fixed
 - Fixed problem with futaba ppm on 12 channels, PPm width goes down to 500uS on futaba instead of 1mS, extended range to allow these values through
 
 Notes
-The recomended firmware version.
 
 
 
