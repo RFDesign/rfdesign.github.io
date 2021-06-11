@@ -6,7 +6,7 @@
         - file: RFD X modems SiK V3.X release notes.txt
         - file: RFDSiK V3.07 rfd900x.bin
         - file: RFDSiK V3.16 rfd900x.bin
-        - file: RFDSiK V3.20 rfd900x.bin
+        - file: RFDSiK V3.38 rfd900x.bin
     SIK:
     #    - file: RFD X modems SiK V3.X release notes.txt
     #    - file: RFDSiK V3.01 rfd900x.bin
@@ -35,7 +35,7 @@
         - file: RFD X modems SiK V3.X release notes.txt
         - file: RFDSiK V3.15 rfd900ux.bin
         - file: RFDSiK V3.16 rfd900ux.bin
-        - file: RFDSiK V3.20 rfd900ux.bin
+        - file: RFDSiK V3.38 rfd900ux.bin
     Async:
         - file: RFD X modems Asynchronous release notes.txt
         - file: RFD900ux-AsyncRelease_V2.64.bin
