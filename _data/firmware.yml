@@ -114,7 +114,7 @@
 - modems:
     heading: RFD DINIO
     Async:
-        - file: RFD900x-AsyncRelease_V2.58_DINIO.bin
+        - file: RFD900x-AsyncRelease_V2.71_DINIO.bin
         
 - modems:
     heading: RFDMX
