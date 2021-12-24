@@ -73,3 +73,5 @@
  * 2.55 - Changed encryption key text box max length from 32 to 64 hex numerals (for 256 bit encryption).  
  * 2.56 - Now recognises country code 255 as not locked to country.
  * 2.57 - Now before programming firmware, checks whether modem says it is DINIO.  If it says it is DINIO, only allows DINIO firmware to be programmed into modem.  
+ * 2.58 - Now supports RFD X rev 2.  Now checks that band is compatible with country before locking to a country.  
+ * 2.60 - Now supports RFD X rev 2 programming firmware when baud rate other than 57600bps is used. 
