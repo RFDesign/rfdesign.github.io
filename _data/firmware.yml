@@ -1,5 +1,18 @@
 - modems:
-    heading: RFD900x and RFD868x
+    heading: RFD900x and RFD868x (V2.x hardware)
+    SIKB:
+        
+    SIKC:
+        - file: RFD X modems SiK V3.X release notes.txt
+        - file: RFDSiK V3.50 rfd900x2.gbl
+
+    MPSIK:
+
+    Async:
+
+
+- modems:
+    heading: RFD900x and RFD868x (V1.x hardware)
     SIKB:
         
     SIKC:
