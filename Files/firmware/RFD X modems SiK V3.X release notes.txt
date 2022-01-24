@@ -1,6 +1,27 @@
 RFD X V3.X series modems SiK firmware version release log
 
 Version
+- 3.50
+
+* Version 3.47 (internal release) onwards is compatible with both RFD900x V1.x and V2.x boards.  V2.x boards have new microcontrollers.
+
+New
+- added debug paramters for ATI11 for PPM the same as SBUS
+
+Improved
+- change min fsframeloss from 2 to 5
+
+Fixed
+- PPM/SBUS fixes, improvements for reliability and stability.
+- Fixed bug with 750K rate, Disabled whitening for 750K rate
+- Fixed problem with futaba ppm on 12 channels, PPm width goes down to 500uS on futaba instead of 1mS
+- Fixed bug with 868,842 and 933 setting max air rate when ati5? command issued
+
+Notes
+The recomended firmware version is now 3.50 for SiK
+
+
+Version
 - 3.38
 
 New
