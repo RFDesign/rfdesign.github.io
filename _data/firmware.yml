@@ -5,6 +5,7 @@
     SIKC:
         - file: RFD X modems SiK V3.X release notes.txt
         - file: RFDSiK V3.50 rfd900x2.gbl
+        - file: RFDSiK V3.52 rfd900x2.gbl
 
     MPSIK:
 
@@ -21,6 +22,7 @@
         - file: RFDSiK V3.16 rfd900x.bin
         - file: RFDSiK V3.38 rfd900x.bin
         - file: RFDSiK V3.50 rfd900x.bin
+        - file: RFDSiK V3.52 rfd900x.bin
 
     SIK:
     #    - file: RFD X modems SiK V3.X release notes.txt
