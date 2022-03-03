@@ -1,8 +1,10 @@
 TX MOD Firmware Notes
 =====================
 
-The current version of the TX MOD firmware is 1.4.4
-This firmware will update the internal modem to V3.15 or V3.16 dependending on selected SPIFFS file and will require the paired modem to be updated to the same version.
+The current version of the TX MOD firmware is 1.4.8 / 2.0
+This firmware will update the internal modem to V3.52 and will require the paired modem to be updated to the same version.
+
+v3.52 is interoperable with both v1.x and v2.x modems.
 
 Version History
 ===============
@@ -15,4 +17,4 @@ Version History
 25/05/20 - 1.4.0  Added MavLink to S.PORT support. The user is required to modify the hardware to get the feature working.
 12/05/20 - 1.3.12 Bugfix: TXMOD no longer resets modems during bootup
 
-* Refer to github repository for detailed information: https://github.com/RFDesign/mavesp8266/tree/txmod-sport/
+03/03/22 - 1.4.8 / 2.0 Added support for v2.x modem hardware general performance improvements.  Updated default TXMOD air data rates from 64k to 128k for less RC latency.
