@@ -8,6 +8,7 @@
         - file: RFDSiK V3.52 rfd900x2.gbl
 
     MPSIK:
+        - file: RFD900x2-MultipointRelease_V3.00MP.gbl
 
     Async:
 
@@ -45,6 +46,7 @@
         - file: RFD900x-MultipointRelease_V2.86MP.bin
         - file: RFD900x-MultipointRelease_V2.89MP.bin
         - file: RFD900x-MultipointRelease_V2.90MP.bin
+        - file: RFD900x-MultipointRelease_V3.00MP.bin
 
 
 - modems:
@@ -56,6 +58,7 @@
         - file: RFDSiK V3.52 rfd900ux2.gbl
 
     MPSIK:
+        - file: RFD900ux2-MultipointRelease_V3.00MP.gbl
 
     Async:
 
@@ -78,6 +81,7 @@
         - file: RFD900ux-MultipointRelease_V2.86MP.bin
         - file: RFD900ux-MultipointRelease_V2.89MP.bin
         - file: RFD900ux-MultipointRelease_V2.90MP.bin
+        - file: RFD900ux-MultipointRelease_V3.00MP.bin
         
 
 - modems:
