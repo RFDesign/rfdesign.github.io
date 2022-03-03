@@ -132,15 +132,24 @@
         - file: RFDSiK V1.9 hm_trp.ihx
 
 - modems:
-    heading: TXMOD and TXMOD868
+    heading: TXMOD and TXMOD868 (v1.0 and v2.0) - contains 868x/900x v1.x modem hardware
     SIK:
         - file: TX MOD Firmware Notes.txt
+        - file: RFDTxMod-V1.48.4m.bin
+        - file: RFDTxMod-x1_spiffs352.bin
         - file: firmware146.bin
         - file: spiffs315.bin
         - file: spiffs316.bin
         - file: spiffs320.bin
         - file: spiffs338.bin
-        
+
+- modems:
+    heading: TXMOD and TXMOD868 (v2.1) - contains 868x/900x v2.x modem hardware
+    SIK:
+        - file: TX MOD Firmware Notes.txt
+        - file: RFDTxMod-V2.00.4m.bin
+        - file: RFDTxMod-x2_spiffs352.bin
+
 - modems:
     heading: TX Pole
     SIK:
