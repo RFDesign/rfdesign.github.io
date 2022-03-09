@@ -1,5 +1,9 @@
 RFD X V3.X series modems SiK firmware version release log
 
+Version 
+- 3.53
+Fixed bug in V2 modems of slow update HUD/telemetry rates in mission planner to report txbuf correctly in percentage.
+
 Version
 - 3.50
 
