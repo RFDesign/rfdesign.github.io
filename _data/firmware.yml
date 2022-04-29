@@ -4,7 +4,7 @@
         
     SIKC:
         - file: RFD X modems SiK V3.X release notes.txt
-        - file: RFDSiK V3.54 rfd900x2.gbl
+        - file: RFDSiK V3.56 rfd900x2.gbl
 
     MPSIK:
         - file: RFD900x2-MultipointRelease_V3.00MP.gbl
@@ -21,7 +21,7 @@
         - file: RFDSiK V3.07 rfd900x.bin
         - file: RFDSiK V3.16 rfd900x.bin
         - file: RFDSiK V3.38 rfd900x.bin
-        - file: RFDSiK V3.54 rfd900x.bin
+        - file: RFDSiK V3.56 rfd900x.bin
 
     SIK:
     #    - file: RFD X modems SiK V3.X release notes.txt
@@ -53,7 +53,7 @@
         
     SIKC:
         - file: RFD X modems SiK V3.X release notes.txt
-        - file: RFDSiK V3.54 rfd900ux2.gbl
+        - file: RFDSiK V3.56 rfd900ux2.gbl
 
     MPSIK:
         - file: RFD900ux2-MultipointRelease_V3.00MP.gbl
@@ -68,7 +68,7 @@
         - file: RFDSiK V3.15 rfd900ux.bin
         - file: RFDSiK V3.16 rfd900ux.bin
         - file: RFDSiK V3.38 rfd900ux.bin
-        - file: RFDSiK V3.54 rfd900ux.bin
+        - file: RFDSiK V3.56 rfd900ux.bin
     Async:
         - file: RFD X modems Asynchronous release notes.txt
         - file: RFD900ux-AsyncRelease_V2.64.bin
@@ -134,11 +134,8 @@
     SIK:
         - file: TX MOD Firmware Notes.txt
         - file: RFDTxMod-V1.48.4m.bin
-        - file: RFDTxMod-v1_spiffs354.bin
+        - file: RFDTxMod-v1_spiffs356.bin
         - file: firmware146.bin
-        - file: spiffs315.bin
-        - file: spiffs316.bin
-        - file: spiffs320.bin
         - file: spiffs338.bin
 
 - modems:
@@ -146,7 +143,7 @@
     SIK:
         - file: TX MOD Firmware Notes.txt
         - file: RFDTxMod-v2_V2.10.bin
-        - file: RFDTxMod-v2_spiffs354.bin
+        - file: RFDTxMod-v2_spiffs356.bin
 
 - modems:
     heading: TX Pole
