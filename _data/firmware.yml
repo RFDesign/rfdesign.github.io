@@ -10,6 +10,7 @@
         - file: RFD900x2-MultipointRelease_V3.00MP.gbl
 
     Async:
+        - file: RFDAsync V4.03 rfd900x2.gbl
 
 
 - modems:
@@ -59,6 +60,7 @@
         - file: RFD900ux2-MultipointRelease_V3.00MP.gbl
 
     Async:
+        - file: RFDAsync V4.03 rfd900ux2.gbl
 
 
 - modems:
