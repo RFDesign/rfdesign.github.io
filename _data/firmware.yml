@@ -146,6 +146,8 @@
         - file: TX MOD Firmware Notes.txt
         - file: RFDTxMod-v2_V2.10.bin
         - file: RFDTxMod-v2_spiffs356.bin
+        - file: RFDTxMod-v2_V2.11.bin
+        - file: RFDTxMod-v2_spiffs357.bin
 
 - modems:
     heading: TX Pole
