@@ -1,6 +1,11 @@
 RFD X V3.X series modems SiK firmware version release log
 
 Version 
+- 3.57
+900x V1.x: Improved stability at low temperatures for software resets. 
+900x V2.x: No change
+
+Version 
 - 3.56
 Change window size to 40mS when duty less than = 20 and ppm or sbus is on. (TXMOD EU fix)
 Updated 12k rate performance
