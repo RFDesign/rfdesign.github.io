@@ -7,13 +7,6 @@ title: Firmware
 <hr/>
 <section>
     <h2>{{modem.modems.heading}}</h2>
-
-    <h4>RFD SiK Beta</h4>
-    {% for file in modem.modems..SIKB %}
-    <address>
-        <p><strong><a href="{{site.baseurl}}/Files/firmware/{{file.file}}">{{file.file}}<a/></strong></p>
-    </address>
-    {% endfor %}
     
     <h4>RFD SiK Compliant</h4>
     {% for file in modem.modems..SIKC %}
