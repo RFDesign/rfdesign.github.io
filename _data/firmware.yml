@@ -1,7 +1,6 @@
 - modems:
     heading: RFD900x and RFD868x (V2.x hardware)
-    SIKB:
-        
+
     SIKC:
         - file: RFD X modems SiK V3.X release notes.txt
         - file: RFDSiK V3.57 rfd900x2.gbl
@@ -15,8 +14,7 @@
 
 - modems:
     heading: RFD900x and RFD868x (V1.x hardware)
-    SIKB:
-        
+
     SIKC:
         - file: RFD X modems SiK V3.X release notes.txt
         - file: RFDSiK V3.07 rfd900x.bin
@@ -50,8 +48,7 @@
 
 - modems:
     heading: RFD900ux and RFD868ux (V2.x hardware)
-    SIKB:
-        
+
     SIKC:
         - file: RFD X modems SiK V3.X release notes.txt
         - file: RFDSiK V3.57 rfd900ux2.gbl
