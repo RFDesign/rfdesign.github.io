@@ -52,6 +52,8 @@
   des: RFD TXMOD Product Brochure
 - file: TXMOD - Adding S.PORT Support.pdf
   des: RFD TXMOD - Adding S.PORT Support
+- file: RFD X-Series Modem Enclosure Mounting Instructions.pdf
+  des: RFD X-Series Modem Enclosure Instructions
 - file: RFD DINIO User Manual V2.2.pdf
   des: RFD DIN IO User Manual V2.2
 #- file: RFD DINIO User Manual V1.0.pdf
@@ -62,3 +64,5 @@
   des: RFD DIN IO Product Brochure
 - file: RFDMX User Manual v1.3.pdf
   des: RFDMX User Manual V1.3
+
+
