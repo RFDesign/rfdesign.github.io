@@ -6,6 +6,9 @@
         - file: RFDSiK V3.56 rfd900x2.gbl
         - file: RFDSiK V3.57 rfd900x2.gbl
 
+    MCOMM:
+        - file: RFD900X2-MultComm_V4.00_068b0e8.gbl
+    
     MPSIK:
         - file: RFD900x2-MultipointRelease_V3.00MP.gbl
 
