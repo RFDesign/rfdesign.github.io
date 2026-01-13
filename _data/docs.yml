@@ -1,11 +1,11 @@
 - file: Modem Support FAQs V1.2.pdf
   des: RFD Modem Support FAQ
-- file: x Series Datasheet V2.0.pdf
-  des: RFD x Series Radio Modem Data Sheet V2.0
+- file: XseriesDatasheet2.1.pdf
+  des: RFD x Series Radio Modem Data Sheet V2.1
 #- file: RFD900x DataSheet V1.0.pdf
 #  des: RFD900x Radio Modem Data Sheet V1.0
-- file: ux Series Datasheet V2.1.pdf
-  des: RFD ux Series Radio Modem Data Sheet V2.1
+- file: uXseriesDatasheet2.2.pdf
+  des: RFD ux Series Radio Modem Data Sheet V2.2
 - file: RFD900ux Altium Library.zip
   des: RFD900ux-SMT Altium PCB and Schematic Libraries
 - file: RFD900x Peer-to-peer V3.X User Manual V1.4.pdf
