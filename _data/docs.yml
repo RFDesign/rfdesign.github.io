@@ -8,8 +8,10 @@
   des: RFD ux Series Radio Modem Data Sheet V2.2
 - file: RFD900ux Altium Library.zip
   des: RFD900ux-SMT Altium PCB and Schematic Libraries
-- file: RFD900x Peer-to-peer V3.X User Manual V1.4.pdf
-  des: RFD900x Peer to Peer V3.X (SiK) manual V1.4
+- file: RFD900x Peer-to-peer V3.X User Manual V1.5.pdf
+  des: RFD900x Peer to Peer V3.X (SiK) manual V1.5
+#- file: RFD900x Peer-to-peer V3.X User Manual V1.4.pdf
+#  des: RFD900x Peer to Peer V3.X (SiK) manual V1.4
 #- file: RFD900x Peer-to-peer V3.X User Manual V1.1.pdf
 #  des: RFD900x Peer to Peer V3.X (SiK) manual V1.1
 #- file: RFD900x Peer-to-peer V3.X User Manual V1.0.pdf
