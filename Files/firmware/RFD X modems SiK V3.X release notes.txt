@@ -1,6 +1,33 @@
 RFD X V3.X series modems SiK firmware version release log
 
 Version 
+- 3.64
+** Version 3.64 supports only RFD900x V2 hardware modems and is not compatible with earlier RFD900x hardware revisions **
+
+New
+- Added support for Brazil
+- Added the ATI14 command to identify the modem’s flash memory and RAM.
+- Added ATPU=<pin> command to disable a mirrored pin
+- Added register GPO1_0STATLED, ATS30 to control status LED2.
+
+Improved
+- Update PPM/SBUS failsafe. Added new register SBUS_PPM_FSAFE_CFG, ATS31
+-- S31= 0: On link loss between the modems output last received SBUS/PPM frame, on RC input failure output the SBUS/PPM recorded failsafe frame. This is the default value to maintain V3.57 behaviour
+-- S31= 1:	On either link loss between the modems or RC input failure, output the recorded SBUS/PPM failsafe frame.
+-- Note: If no PPM failsafe frame has been recorded, PPM output will stop when the modem attempts to output the stored failsafe frame.
+-- Stored failsafe is only deleted when an AT&F command is executed. If a failsafe has been recorded and modem configuration changed from PPM to SBUS or SBUS to PPM, the same failsafe channel values will be used.
+- Encryption key
+-- Hexadecimal Enforcement.  Encryption keys can now only comprise hexadecimal characters (0–9 and A–F).
+-- Key Duplication: When the modem is configured for AES-128 and a 128-bit encryption key is entered, if later the modem is reconfigured for AES-256, the key is automatically duplicated into the upper 128 bits to form a 256-bit key (which can be manually changed). This ensures that without a new key being defined, the resulting key remains a known value.
+- Changed register S5 from ‘ECC’ to ‘RSVD ‘, as ECC functionality has not been supported for a long time (many versions).
+- Changed register S18 from GPO1_1SBUSIN to GPI1_1SBUSIN as it is an input.
+- Format ID changed to 66 due to register changes.
+
+Fixed
+- Limited the Net ID input to a maximum of 255
+- Bug fix to prevent AT and remote RT commands from corrupting each other
+
+Version 
 - 3.57
 900x V1.x: Improved stability at low temperatures for software resets. 
 900x V2.x: No change
